@@ -29,7 +29,7 @@ function App18() {
         <Carousel.Item>
           <img className="d-block w-100" src="/public/bear.jpg" alt="" />
           <Carousel.Caption>
-            <h3>아기곰</h3>
+            <h3>아기곰hi</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet,
               minima.
