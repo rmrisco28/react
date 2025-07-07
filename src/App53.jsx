@@ -9,8 +9,26 @@ function App53(props) {
     });
   }
 
+  function handleButton2Click() {
+    axios.request({
+      method: "GET",
+      url: "/api/main28/sub1",
+    });
+  }
+
+  function handleButton3Click() {
+    axios.request({
+      method: "post",
+      url: "/api/main28/sub2",
+    });
+  }
+
   return (
     <div>
+      <button onClick={handleButton3Click}>요청 보내기3</button>
+      <hr />
+      <button onClick={handleButton2Click}>요청 보내기2</button>
+      <hr />
       <button onClick={handleButton1Click}>요청 보내기1</button>
     </div>
   );
