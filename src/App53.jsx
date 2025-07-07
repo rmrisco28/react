@@ -25,6 +25,7 @@ function App53(props) {
 
   return (
     <div>
+      {/* 연습*/}
       <button onClick={handleButton3Click}>요청 보내기3</button>
       <hr />
       <button onClick={handleButton2Click}>요청 보내기2</button>
